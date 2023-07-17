@@ -1,0 +1,42 @@
+:root{
+  --gradient:radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+}
+
+body{
+  margin:10px;
+  background:var(--gradient);
+}
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  font-size: 20px;
+}
+
+h1,h5, p{
+  text-align: center;
+}
+
+h5{
+  font-size: medium;
+  font-weight:bold;
+}
+
+img{
+  display:block;
+  margin:0 auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.navigation-link{
+color: #000;
+border:1px solid #000;
+margin: 20px;
+border-radius: 4px;
+padding: 20px 15px;
+text-decoration: none;
+text-transform: capitalize;
+}
